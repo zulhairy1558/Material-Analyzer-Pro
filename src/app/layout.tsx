@@ -31,7 +31,9 @@ export const metadata: Metadata = {
     "Materials Testing",
   ],
   authors: [{ name: "MZN Labs" }],
-  manifest: "/manifest.json",
+  manifest: process.env.GITHUB_ACTIONS === "true"
+    ? "/Material-Analyzer-Pro/manifest.json"
+    : "/manifest.json",
   icons: {
     icon: "/icon.ico",
     apple: "/icon-192.png",
