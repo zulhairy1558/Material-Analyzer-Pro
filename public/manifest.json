@@ -1,0 +1,32 @@
+{
+  "name": "Material Test Analyzer",
+  "short_name": "MTA",
+  "description": "Calibrated-instrument-class materials testing analyzer for stress-strain, puncture, tear and cling curves.",
+  "version": "2.2.0",
+  "start_url": "/Material-Analyzer-Pro/",
+  "scope": "/Material-Analyzer-Pro/",
+  "display": "standalone",
+  "orientation": "landscape-primary",
+  "background_color": "#15171C",
+  "theme_color": "#0E8A8F",
+  "categories": ["productivity", "utilities", "science"],
+  "icons": [
+    {
+      "src": "/Material-Analyzer-Pro/icon.ico",
+      "sizes": "48x48 72x72 96x96 128x128 256x256",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/Material-Analyzer-Pro/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Material-Analyzer-Pro/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
